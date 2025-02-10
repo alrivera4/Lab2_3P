@@ -29,54 +29,53 @@ Además, asegúrate de tener configurado un archivo `.env` en el directorio del 
 
 ### 1. Clonar el Repositorio
 Clona el repositorio desde GitHub a tu máquina local:
+  ``bash
 
-```bash
-  git clone https://github.com/alrivera4/Lab2_3P.git
-  cd Lab2_3P.
+  - `git clone https://github.com/alrivera4/Lab2_3P.git/`
+    
+  - `cd Lab2_3P`
 
 ### 2. Configurar el backend
 Instala las dependencias necesarias:
-
-  ```bash
   npm install
 
-Configura el archivo .env con las siguientes variables:
+### 3. Configura el archivo .env con las siguientes variables:
 
 HUGGINGFACE_API_KEY=tu_api_key
 
-Inicia el servidor backend:
+### 4. Inicia el servidor backend:
   node server.js
   El backend estará disponible en http://localhost:3000.
 
-Configurar el Frontend
+### 5. Configurar el Frontend
 en la terminal ejecuta:
   cd src
   npm install
   ng serve
-El frontend estará disponible en http://localhost:4200.
+### 6. El frontend estará disponible en http://localhost:4200.
 
 Acceso a la Aplicación
-  - `Abre tu navegador web y visita http://localhost:4200.
-  - `Ingresa el texto que deseas convertir a imagen y voz.
-  - `Visualiza el resultado con la imagen generada y reproduce el audio generado.
+  - Abre tu navegador web y visita http://localhost:4200.
+  - Ingresa el texto que deseas convertir a imagen y voz.
+  - Visualiza el resultado con la imagen generada y reproduce el audio generado.
 
-Anexos
+### 7. Anexos
 Vistas principales como:
 Pantalla de inicio y ejecución.
 ![image](https://github.com/user-attachments/assets/4e13bce7-0ce0-42fa-b7f5-3b5660574059)
 
 Se puede observar los resultados con la imagen y el audio generado.
 
-Tecnologías Utilizadas
-  - `Frontend: Angular 16, Bootstrap.
-  - `Backend: Node.js, Express.
-  - `APIs: Hugging Face (generación de texto a imagen y conversión de texto a voz).
-  - `Control de Versiones: Git y GitHub.
+### 8. Tecnologías Utilizadas
+  - Frontend: Angular 16, Bootstrap.
+  - Backend: Node.js, Express.
+  - APIs: Hugging Face (generación de texto a imagen y conversión de texto a voz).
+  - Control de Versiones: Git y GitHub.
 
-Licencia
+### 9. Licencia
 Este proyecto se encuentra bajo la licencia MIT.
 
-Autores
-  - `Rodriguez Danny
-  - `Rivera Amanda
-  - `Moreno Douglas
+### 10. Autores
+  - Rodriguez Danny
+  - Rivera Amanda
+  - Moreno Douglas
