@@ -34,7 +34,7 @@ Clona el repositorio desde GitHub a tu máquina local:
   git clone https://github.com/alrivera4/Lab2_3P.git
   cd Lab2_3P
 
-### 2. Configurar el Backend
+### 2. Configurar el backend
 Instala las dependencias necesarias:
 
   ```bash
