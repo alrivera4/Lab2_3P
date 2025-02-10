@@ -31,7 +31,7 @@ Además, asegúrate de tener configurado un archivo `.env` en el directorio del 
 Clona el repositorio desde GitHub a tu máquina local:
   ``bash
 
-  - `git clone https://github.com/alrivera4/Lab2_3P.git/`
+  - `git clone https://github.com/alrivera4/Lab2_3P.git`
     
   - `cd Lab2_3P`
 
