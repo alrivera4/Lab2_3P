@@ -36,44 +36,47 @@ Clona el repositorio desde GitHub a tu máquina local:
 
 ### 2. Configurar el Backend
 Instala las dependencias necesarias:
+
+  ```bash
   npm install
 
-### Configura el archivo .env con las siguientes variables:
-  HUGGINGFACE_API_KEY=tu_api_key
+Configura el archivo .env con las siguientes variables:
 
-### Inicia el servidor backend:
+HUGGINGFACE_API_KEY=tu_api_key
+
+Inicia el servidor backend:
   node server.js
   El backend estará disponible en http://localhost:3000.
 
-### Configurar el Frontend
+Configurar el Frontend
 en la terminal ejecuta:
   cd src
   npm install
   ng serve
 El frontend estará disponible en http://localhost:4200.
 
-### Acceso a la Aplicación
+Acceso a la Aplicación
   - `Abre tu navegador web y visita http://localhost:4200.
   - `Ingresa el texto que deseas convertir a imagen y voz.
   - `Visualiza el resultado con la imagen generada y reproduce el audio generado.
 
-### Anexos
+Anexos
 Vistas principales como:
 Pantalla de inicio y ejecución.
 ![image](https://github.com/user-attachments/assets/4e13bce7-0ce0-42fa-b7f5-3b5660574059)
 
 Se puede observar los resultados con la imagen y el audio generado.
 
-### Tecnologías Utilizadas
+Tecnologías Utilizadas
   - `Frontend: Angular 16, Bootstrap.
   - `Backend: Node.js, Express.
   - `APIs: Hugging Face (generación de texto a imagen y conversión de texto a voz).
   - `Control de Versiones: Git y GitHub.
 
-### Licencia
+Licencia
 Este proyecto se encuentra bajo la licencia MIT.
 
-### Autores
+Autores
   - `Rodriguez Danny
   - `Rivera Amanda
   - `Moreno Douglas
